@@ -1,0 +1,34 @@
+<jnlp spec="1.6+" codebase="http://cloud.teamdev.com/" href="downloads/demo/jxbrowserdemo.jnlp">
+    <information>
+        <title>JxBrowser Demo</title>
+        <vendor>TeamDev Ltd.</vendor>
+        <homepage href="http://www.teamdev.com/jxbrowser"/>
+        <description>JxBrowser Demo Application</description>
+        <description kind="short">JxBrowser Demo Application</description>
+        <icon href="images/pad-jxbrowser.png" width="32" height="32"/>
+        <offline-allowed/>
+    </information>
+
+    <security>
+        <all-permissions/>
+    </security>
+
+    <application-desc main-class="com.teamdev.jxbrowser.chromium.demo.JxBrowserDemo"/>
+
+    <resources>
+        <jar href="downloads/demo/jxbrowser/jxbrowserdemo.jar" main="true"/>
+        <jar href="downloads/demo/jxbrowser/jxbrowser-6.16.jar"/>
+    </resources>
+
+    <resources os="Windows">
+        <jar href="downloads/demo/jxbrowser/jxbrowser-win32-6.16.jar"/>
+    </resources>
+
+    <resources os="Mac OS X">
+        <jar href="downloads/demo/jxbrowser/jxbrowser-mac-6.16.jar"/>
+    </resources>
+
+    <resources os="Linux" arch="x86_64 amd64">
+        <jar href="downloads/demo/jxbrowser/jxbrowser-linux64-6.16.jar"/>
+    </resources>
+</jnlp>
