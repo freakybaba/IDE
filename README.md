@@ -1,2 +1,2 @@
 # IDE
-It is an IDE in which one can compile c++,java,and c code.
+It is an IDE in which one can compile and run  c++,java,and c code.
